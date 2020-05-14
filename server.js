@@ -25,6 +25,8 @@ mongoose.connect(url,  {
 const routes = require('./api/routes/todoListRoutes'); //importing route
 routes(app);
 
+// const { readImageFile } = require('./batchUploadQuery');
+// readImageFile();
 
 
 const port = process.env.PORT || 5000;

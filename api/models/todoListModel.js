@@ -6,19 +6,16 @@ const Schema = mongoose.Schema;
 const TaskSchema = new Schema({
     name: {
         type: String,
-        required: 'Kindly enter the name of the task'
+        required: 'Kindly enter the name of the image'
     },
     Created_date: {
         type: Date,
         default: Date.now
     },
-    status: {
-        type: [{
-            type: String,
-            enum: ['pending', 'ongoing', 'completed']
-        }],
-        default: ['pending']
-    }
+    imageUrl: {
+        type: String,
+        required: 'Kindly enter the link to the image'
+    },
 });
 
 // Collection name is images
