@@ -1,12 +1,12 @@
 {
-  "name": "todolistapi",
+  "name": "leader-board-api",
   "version": "1.0.0",
-  "description": "RESTful api for todolist",
+  "description": "RESTful api for HNG Leader Board",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "iobami",
+  "author": "tundeLayan",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
